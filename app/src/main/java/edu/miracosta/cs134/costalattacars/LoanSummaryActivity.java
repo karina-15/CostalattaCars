@@ -5,13 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.TextView;
-
-import java.text.NumberFormat;
-import java.util.Locale;
-
-import edu.miracosta.cs134.costalattacars.model.CarLoan;
 
 public class LoanSummaryActivity extends AppCompatActivity {
     // Instance variables
