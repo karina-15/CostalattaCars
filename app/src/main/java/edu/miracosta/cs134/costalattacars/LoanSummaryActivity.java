@@ -39,7 +39,7 @@ public class LoanSummaryActivity extends AppCompatActivity {
         // Receive the intent (from MainActivity)
         Intent intent = getIntent();
 
-        // Populate the text views with the data from the carLoan mode
+        // Populate the text views with the data from the carLoan model
         monthlyPaymentTextView.setText(intent.getStringExtra("MonthlyPayment"));
         carPriceTextView.setText(intent.getStringExtra("CarPrice"));
         salesTaxRateTextView.setText(intent.getStringExtra("TaxRate"));
